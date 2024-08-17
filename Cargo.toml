@@ -1,0 +1,71 @@
+[package]
+name = "leetcode"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+cargo-watch = "8.5.2"
+
+[[bin]]
+name = "001_Two_Sum"
+path = "src/Easy/001_Two_Sum.rs"
+
+[[bin]]
+name = "009_palindrome_number"
+path = "src/Easy/009_palindrome_number.rs"
+
+[[bin]]
+name = "013_roman_to_integer"
+path = "src/Easy/013_roman_to_integer.rs"
+
+[[bin]]
+name = "014_longest_common_prefix"
+path = "src/Easy/014_longest_common_prefix.rs"
+
+[[bin]]
+name = "020_valid_parentheses"
+path = "src/Easy/020_valid_parentheses.rs"
+
+[[bin]]
+name = "021_Merge_Two_Sorted_Lists"
+path = "src/Easy/021_Merge_Two_Sorted_Lists.rs"
+
+[[bin]]
+name = "026_Remove_Duplicates_from_Sorted_Array"
+path = "src/Easy/026_Remove_Duplicates_from_Sorted_Array.rs"
+
+[[bin]]
+name = "027_Remove_Element"
+path = "src/Easy/027_Remove_Element.rs"
+
+[[bin]]
+name = "028_Find_the_Index_of_the_First_Occurrence_in_a_String"
+path = "src/Easy/028_Find_the_Index_of_the_First_Occurrence_in_a_String.rs"
+
+[[bin]]
+name = "035_Search_Insert_Position"
+path = "src/Easy/035_Search_Insert_Position.rs"
+
+[[bin]]
+name = "058_Length_of_Last_Word"
+path = "src/Easy/058_Length_of_Last_Word.rs"
+
+[[bin]]
+name = "066_Plus_One"
+path = "src/Easy/066_Plus_One.rs"
+
+[[bin]]
+name = "067_Add_Binary"
+path = "src/Easy/067_Add_Binary.rs"
+
+[[bin]]
+name = "069_Sqrt_x"
+path = "src/Easy/069_Sqrt_x.rs"
+
+[[bin]]
+name = "070_Climbing_Stairs"
+path = "src/Easy/070_Climbing_Stairs.rs"
+
+[[bin]]
+name = "083_Remove_Duplicates_from_Sorted_List"
+path = "src/Easy/083_Remove_Duplicates_from_Sorted_List.rs"
