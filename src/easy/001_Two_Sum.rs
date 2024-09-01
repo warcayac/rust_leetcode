@@ -1,6 +1,7 @@
 struct Solution;
 
 impl Solution {
+    #[allow(dead_code)]
   fn two_sum(nums: Vec<i32>, target: i32) -> Vec<i32> {
     let mut map = std::collections::HashMap::new();
     for (i, x) in nums.iter().enumerate() {
@@ -17,11 +18,8 @@ impl Solution {
     // si no hay solución, retorna un vector vacío
     vec![]
   }
-}
-
-struct Solution2;
-impl Solution2 {
-    pub fn two_sum(nums: Vec<i32>, target: i32) -> Vec<i32> {
+    
+    pub fn two_sum_2(nums: Vec<i32>, target: i32) -> Vec<i32> {
         let mut nums = nums.into_iter().enumerate().collect::<Vec<(usize, i32)>>();
         // println!("{:?}", nums);
         // nums es ahora un vector de tuplas, donde el primer valor de la tupla es el índice (0,...)
@@ -44,7 +42,7 @@ impl Solution2 {
 
 fn main() {
   // let _solution = Solution::two_sum(vec![2, 7, 11, 15], 9);
-  let _solution = Solution2::two_sum(vec![2,6,4,9,8,16], 14);
+  let _solution = Solution::two_sum_2(vec![2,6,4,9,8,16], 14);
   println!("{:?}", _solution);
   println!("Job done!");
 }

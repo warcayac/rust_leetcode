@@ -7,65 +7,125 @@ edition = "2021"
 cargo-watch = "8.5.2"
 
 [[bin]]
+name = "rc_refcell"
+path = "src/examples/rc_refcell.rs"
+
+[[bin]]
 name = "001_Two_Sum"
-path = "src/Easy/001_Two_Sum.rs"
+path = "src/easy/001_Two_Sum.rs"
 
 [[bin]]
 name = "009_palindrome_number"
-path = "src/Easy/009_palindrome_number.rs"
+path = "src/easy/009_palindrome_number.rs"
 
 [[bin]]
 name = "013_roman_to_integer"
-path = "src/Easy/013_roman_to_integer.rs"
+path = "src/easy/013_roman_to_integer.rs"
 
 [[bin]]
 name = "014_longest_common_prefix"
-path = "src/Easy/014_longest_common_prefix.rs"
+path = "src/easy/014_longest_common_prefix.rs"
 
 [[bin]]
 name = "020_valid_parentheses"
-path = "src/Easy/020_valid_parentheses.rs"
+path = "src/easy/020_valid_parentheses.rs"
 
 [[bin]]
 name = "021_Merge_Two_Sorted_Lists"
-path = "src/Easy/021_Merge_Two_Sorted_Lists.rs"
+path = "src/easy/021_Merge_Two_Sorted_Lists.rs"
 
 [[bin]]
 name = "026_Remove_Duplicates_from_Sorted_Array"
-path = "src/Easy/026_Remove_Duplicates_from_Sorted_Array.rs"
+path = "src/easy/026_Remove_Duplicates_from_Sorted_Array.rs"
 
 [[bin]]
 name = "027_Remove_Element"
-path = "src/Easy/027_Remove_Element.rs"
+path = "src/easy/027_Remove_Element.rs"
 
 [[bin]]
 name = "028_Find_the_Index_of_the_First_Occurrence_in_a_String"
-path = "src/Easy/028_Find_the_Index_of_the_First_Occurrence_in_a_String.rs"
+path = "src/easy/028_Find_the_Index_of_the_First_Occurrence_in_a_String.rs"
 
 [[bin]]
 name = "035_Search_Insert_Position"
-path = "src/Easy/035_Search_Insert_Position.rs"
+path = "src/easy/035_Search_Insert_Position.rs"
 
 [[bin]]
 name = "058_Length_of_Last_Word"
-path = "src/Easy/058_Length_of_Last_Word.rs"
+path = "src/easy/058_Length_of_Last_Word.rs"
 
 [[bin]]
 name = "066_Plus_One"
-path = "src/Easy/066_Plus_One.rs"
+path = "src/easy/066_Plus_One.rs"
 
 [[bin]]
 name = "067_Add_Binary"
-path = "src/Easy/067_Add_Binary.rs"
+path = "src/easy/067_Add_Binary.rs"
 
 [[bin]]
 name = "069_Sqrt_x"
-path = "src/Easy/069_Sqrt_x.rs"
+path = "src/easy/069_Sqrt_x.rs"
 
 [[bin]]
 name = "070_Climbing_Stairs"
-path = "src/Easy/070_Climbing_Stairs.rs"
+path = "src/easy/070_Climbing_Stairs.rs"
 
 [[bin]]
 name = "083_Remove_Duplicates_from_Sorted_List"
-path = "src/Easy/083_Remove_Duplicates_from_Sorted_List.rs"
+path = "src/easy/083_Remove_Duplicates_from_Sorted_List.rs"
+
+[[bin]]
+name = "088_Merge_Sorted_Array"
+path = "src/easy/088_Merge_Sorted_Array.rs"
+
+[[bin]]
+name = "094_Binary_Tree_Inorder_Traversal"
+path = "src/easy/094_Binary_Tree_Inorder_Traversal.rs"
+
+[[bin]]
+name = "100_Same_Tree"
+path = "src/easy/100_Same_Tree.rs"
+
+[[bin]]
+name = "101_Symmetric_Tree"
+path = "src/easy/101_Symmetric_Tree.rs"
+
+[[bin]]
+name = "104_Maximum_Depth_of_Binary_Tree"
+path = "src/easy/104_Maximum_Depth_of_Binary_Tree.rs"
+
+[[bin]]
+name = "108_Convert_Sorted_Array_to_Binary_Search_Tree"
+path = "src/easy/108_Convert_Sorted_Array_to_Binary_Search_Tree.rs"
+
+[[bin]]
+name = "110_Balanced_Binary_Tree"
+path = "src/easy/110_Balanced_Binary_Tree.rs"
+
+[[bin]]
+name = "p111_minimum_depth_of_binary_tree"
+path = "src/easy/p111_minimum_depth_of_binary_tree.rs"
+
+[[bin]]
+name = "p112_path_sum"
+path = "src/easy/p112_path_sum.rs"
+
+[[bin]]
+name = "p118_pascals_triangle"
+path = "src/easy/p118_pascals_triangle.rs"
+
+[[bin]]
+name = "p119_pascals_triangle_ii"
+path = "src/easy/p119_pascals_triangle_ii.rs"
+
+[[bin]]
+name = "p121_best_time_to_buy_and_sell_stock"
+path = "src/easy/p121_best_time_to_buy_and_sell_stock.rs"
+
+[[bin]]
+name = "p125_valid_palindrome"
+path = "src/easy/p125_valid_palindrome.rs"
+
+[[bin]]
+name = "p136_single_number"
+path = "src/easy/p136_single_number.rs"

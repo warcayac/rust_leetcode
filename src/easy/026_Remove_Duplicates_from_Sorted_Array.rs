@@ -27,6 +27,7 @@ than the original code.
 */
 
 impl Solution {
+    #[allow(clippy::ptr_arg)]
     pub fn remove_duplicates(nums: &mut Vec<i32>) -> i32 {
         let mut write_index = 1;
 
