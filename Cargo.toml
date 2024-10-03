@@ -4,7 +4,6 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-cargo-watch = "8.5.2"
 
 [[bin]]
 name = "rc_refcell"
@@ -129,3 +128,195 @@ path = "src/easy/p125_valid_palindrome.rs"
 [[bin]]
 name = "p136_single_number"
 path = "src/easy/p136_single_number.rs"
+
+[[bin]]
+name = "p141_linked_list_cycle"
+path = "src/easy/p141_linked_list_cycle.rs"
+
+[[bin]]
+name = "p144_binary_tree_preorder_traversal"
+path = "src/easy/p144_binary_tree_preorder_traversal.rs"
+
+[[bin]]
+name = "p145_binary_tree_postorder_traversal"
+path = "src/easy/p145_binary_tree_postorder_traversal.rs"
+
+[[bin]]
+name = "p168_excel_sheet_column_title"
+path = "src/easy/p168_excel_sheet_column_title.rs"
+
+[[bin]]
+name = "p169_majority_element"
+path = "src/easy/p169_majority_element.rs"
+
+[[bin]]
+name = "p171_excel_sheet_column_number"
+path = "src/easy/p171_excel_sheet_column_number.rs"
+
+[[bin]]
+name = "p190_reverse_bits"
+path = "src/easy/p190_reverse_bits.rs"
+
+[[bin]]
+name = "p191_number_of_1_bits"
+path = "src/easy/p191_number_of_1_bits.rs"
+
+[[bin]]
+name = "p202_happy_number"
+path = "src/easy/p202_happy_number.rs"
+
+[[bin]]
+name = "p203_remove_linked_list_elements"
+path = "src/easy/p203_remove_linked_list_elements.rs"
+
+[[bin]]
+name = "p205_isomorphic_strings"
+path = "src/easy/p205_isomorphic_strings.rs"
+
+[[bin]]
+name = "p206_reverse_linked_list"
+path = "src/easy/p206_reverse_linked_list.rs"
+
+[[bin]]
+name = "p217_contains_duplicate"
+path = "src/easy/p217_contains_duplicate.rs"
+
+[[bin]]
+name = "p219_contains_duplicate_ii"
+path = "src/easy/p219_contains_duplicate_ii.rs"
+
+[[bin]]
+name = "p222_count_complete_tree_nodes"
+path = "src/easy/p222_count_complete_tree_nodes.rs"
+
+[[bin]]
+name = "p225_implement_stack_using_queues"
+path = "src/easy/p225_implement_stack_using_queues.rs"
+
+[[bin]]
+name = "p226_invert_binary_tree"
+path = "src/easy/p226_invert_binary_tree.rs"
+
+[[bin]]
+name = "p228_summary_ranges"
+path = "src/easy/p228_summary_ranges.rs"
+
+[[bin]]
+name = "p231_power_of_two"
+path = "src/easy/p231_power_of_two.rs"
+
+[[bin]]
+name = "p232_implement_queue_using_stacks"
+path = "src/easy/p232_implement_queue_using_stacks.rs"
+
+[[bin]]
+name = "p234_palindrome_linked_list"
+path = "src/easy/p234_palindrome_linked_list.rs"
+
+[[bin]]
+name = "p242_valid_anagram"
+path = "src/easy/p242_valid_anagram.rs"
+
+[[bin]]
+name = "p257_binary_tree_paths"
+path = "src/easy/p257_binary_tree_paths.rs"
+
+[[bin]]
+name = "p258_add_digits"
+path = "src/easy/p258_add_digits.rs"
+
+[[bin]]
+name = "p263_ugly_number"
+path = "src/easy/p263_ugly_number.rs"
+
+[[bin]]
+name = "p268_missing_number"
+path = "src/easy/p268_missing_number.rs"
+
+[[bin]]
+name = "p283_move_zeroes"
+path = "src/easy/p283_move_zeroes.rs"
+
+[[bin]]
+name = "p290_word_pattern"
+path = "src/easy/p290_word_pattern.rs"
+
+[[bin]]
+name = "p292_nim_game"
+path = "src/easy/p292_nim_game.rs"
+
+[[bin]]
+name = "p303_range_sum_query_immutable"
+path = "src/easy/p303_range_sum_query_immutable.rs"
+
+[[bin]]
+name = "p326_power_of_three"
+path = "src/easy/p326_power_of_three.rs"
+
+[[bin]]
+name = "p338_counting_bits"
+path = "src/easy/p338_counting_bits.rs"
+
+[[bin]]
+name = "p342_power_of_four"
+path = "src/easy/p342_power_of_four.rs"
+
+[[bin]]
+name = "p344_reverse_string"
+path = "src/easy/p344_reverse_string.rs"
+
+[[bin]]
+name = "p345_reverse_vowels_of_a_string"
+path = "src/easy/p345_reverse_vowels_of_a_string.rs"
+
+[[bin]]
+name = "p349_intersection_of_two_arrays"
+path = "src/easy/p349_intersection_of_two_arrays.rs"
+
+[[bin]]
+name = "p350_intersection_of_two_arrays_ii"
+path = "src/easy/p350_intersection_of_two_arrays_ii.rs"
+
+[[bin]]
+name = "p367_valid_perfect_square"
+path = "src/easy/p367_valid_perfect_square.rs"
+
+[[bin]]
+name = "p374_guess_number_higher_or_lower"
+path = "src/easy/p374_guess_number_higher_or_lower.rs"
+
+[[bin]]
+name = "p383_ransom_note"
+path = "src/easy/p383_ransom_note.rs"
+
+[[bin]]
+name = "p387_first_unique_character_in_a_string"
+path = "src/easy/p387_first_unique_character_in_a_string.rs"
+
+[[bin]]
+name = "p389_find_the_difference"
+path = "src/easy/p389_find_the_difference.rs"
+
+[[bin]]
+name = "p392_is_subsequence"
+path = "src/easy/p392_is_subsequence.rs"
+
+[[bin]]
+name = "p401_binary_watch"
+path = "src/easy/p401_binary_watch.rs"
+
+[[bin]]
+name = "p404_sum_of_left_leaves"
+path = "src/easy/p404_sum_of_left_leaves.rs"
+
+[[bin]]
+name = "p405_convert_a_number_to_hexadecimal"
+path = "src/easy/p405_convert_a_number_to_hexadecimal.rs"
+
+[[bin]]
+name = "p409_longest_palindrome"
+path = "src/easy/p409_longest_palindrome.rs"
+
+[[bin]]
+name = "p412_fizz_buzz"
+path = "src/easy/p412_fizz_buzz.rs"

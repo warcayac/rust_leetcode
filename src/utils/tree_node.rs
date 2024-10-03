@@ -110,7 +110,7 @@ impl TreeNode {
 
     pub fn from_string(s: &str) -> Option<Rc<RefCell<Self>>> {
         let values = s
-            .split_terminator(|c| c == ',' || c == ' ')
+            .split_terminator(|c| [',',' '].contains(&c))
             .filter(|s| !s.is_empty())
             .map(|s| s.parse::<i32>().ok())
             .collect::<Vec<_>>()
