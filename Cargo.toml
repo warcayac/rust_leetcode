@@ -320,3 +320,71 @@ path = "src/easy/p409_longest_palindrome.rs"
 [[bin]]
 name = "p412_fizz_buzz"
 path = "src/easy/p412_fizz_buzz.rs"
+
+[[bin]]
+name = "p002_add_two_numbers"
+path = "src/medium/p002_add_two_numbers.rs"
+
+[[bin]]
+name = "p003_longest_substring_without_repeating_characters"
+path = "src/medium/p003_longest_substring_without_repeating_characters.rs"
+
+[[bin]]
+name = "p005_longest_palindromic_substring"
+path = "src/medium/p005_longest_palindromic_substring.rs"
+
+[[bin]]
+name = "p006_zigzag_conversion"
+path = "src/medium/p006_zigzag_conversion.rs"
+
+[[bin]]
+name = "p007_reverse_integer"
+path = "src/medium/p007_reverse_integer.rs"
+
+[[bin]]
+name = "p008_string_to_integer_atoi"
+path = "src/medium/p008_string_to_integer_atoi.rs"
+
+[[bin]]
+name = "p011_container_with_most_water"
+path = "src/medium/p011_container_with_most_water.rs"
+
+[[bin]]
+name = "p012_integer_to_roman"
+path = "src/medium/p012_integer_to_roman.rs"
+
+[[bin]]
+name = "p015_3sum"
+path = "src/medium/p015_3sum.rs"
+
+[[bin]]
+name = "p016_3sum_closest"
+path = "src/medium/p016_3sum_closest.rs"
+
+[[bin]]
+name = "p017_letter_combinations_of_a_phone_number"
+path = "src/medium/p017_letter_combinations_of_a_phone_number.rs"
+
+[[bin]]
+name = "p018_4sum"
+path = "src/medium/p018_4sum.rs"
+
+[[bin]]
+name = "p019_remove_nth_node_from_end_of_list"
+path = "src/medium/p019_remove_nth_node_from_end_of_list.rs"
+
+[[bin]]
+name = "p022_generate_parentheses"
+path = "src/medium/p022_generate_parentheses.rs"
+
+[[bin]]
+name = "p024_swap_nodes_in_pairs"
+path = "src/medium/p024_swap_nodes_in_pairs.rs"
+
+[[bin]]
+name = "p029_divide_two_integers"
+path = "src/medium/p029_divide_two_integers.rs"
+
+[[bin]]
+name = "p031_next_permutation"
+path = "src/medium/p031_next_permutation.rs"
